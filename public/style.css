@@ -3,6 +3,21 @@ h1 {
     font-size: 25px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    align-items: center;
+}
+
+#data-container {
+    /* flex: 2; */
+    font-size: 30px;
+    direction: rtl;
+    text-align: right;
+}
+
+
 #data-container span {
     cursor: pointer; /* Changes the cursor to indicate interactivity */
     transition: text-shadow 0.3s ease; /* Smooth transition for the shadow effect */
@@ -27,18 +42,6 @@ h1 {
     visibility: visible;
 }
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#data-container {
-    flex: 2;
-    font-size: 30px;
-    direction: rtl;
-    text-align: right;
-}
 
 .arabic-word {
     position: relative;
