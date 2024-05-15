@@ -1,17 +1,9 @@
 h1 {
     color:black;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
 }
 
-#data-container {
-    font-size: 25px;
-    display: flex;
-    justify-content: center; /* This will center the container, adjust as needed for RTL */
-    direction: rtl; /* Right-to-left text direction */
-    text-align: right; /* Aligns text to the right */
-}
+
 
 
 #data-container span {
@@ -23,6 +15,9 @@ h1 {
 
 #data-container span:hover {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Shadow effect on hover */
+    /* Add a tooltip that when i hover it says hello */
+
+
 }
 
 .word {
@@ -52,4 +47,47 @@ h1 {
     visibility: visible;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#data-container {
+    flex: 2;
+    font-size: 30px;
+    direction: rtl;
+    text-align: right;
+}
+#sidebar {
+    flex: 1;
+    height: 100vh;
+    overflow-y: auto;
+    border-left: 1px solid #ccc;
+    padding: 10px;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.arabic-word {
+    position: relative;
+    cursor: pointer;
+}
+
+.definition-button {
+    display: none;
+    position: absolute;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.definition-button.show {
+    display: block;
+}
