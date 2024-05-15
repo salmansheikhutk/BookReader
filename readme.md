@@ -1,5 +1,14 @@
 Introduction: Trying to create an application which allows you to read text on a page with definitions.
 
-Todo:
-1. When a user clicks the word, the tooltip definition sticks where it is.
-2. When the word sticks, it also will make the word appear in a list called flashcards.
+Simple Functionality:
+
+1a. User is able to select any book. 
+1b. Be able to move between pages.
+2. When the page appears, user clicks a word, and the definition pop-up appears (e.g. google)
+3. You will add the definition of the word underneath the word.
+4. This will update all of the text when you see it.
+5. You can add multiple definitions.
+6. You can see all of the words in a list, export to Quizlet.
+
+Advanced:
+Search bar 

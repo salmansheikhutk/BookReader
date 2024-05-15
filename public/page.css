@@ -2,27 +2,15 @@ h1 {
     color:black;
     font-size: 25px;
 }
-/* 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: column;
-    align-items: center;
-}
 
-#data-container {
-    /* flex: 2; */
-    font-size: 30px;
-    direction: rtl;
-    text-align: right;
-} */
+
 
 
 #data-container span {
     cursor: pointer; /* Changes the cursor to indicate interactivity */
     transition: text-shadow 0.3s ease; /* Smooth transition for the shadow effect */
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 #data-container span:hover {
@@ -44,6 +32,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    font-family: 'Amiri', serif;
     /* overflow: hidden; Prevent scrolling */
 }
 

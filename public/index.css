@@ -1,0 +1,21 @@
+body {
+    font-family: 'Amiri', serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#book-list{
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#book-list :hover{
+    background-color: #f1f1f1;
+    cursor: pointer;
+}

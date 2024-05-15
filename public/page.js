@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-  fetch('http://localhost:3000/data')
+  const urlParams = new URLSearchParams(window.location.search);
+  const bookName = urlParams.get('bookName');
+  console.log("Book name:", bookName);
+  
+  fetch('http://localhost:3000/data?bookName=' + encodeURIComponent(bookName))
     .then(response => {
       console.log('Response:', response);
       console.log('Type:', response.type);
