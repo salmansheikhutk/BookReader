@@ -53,4 +53,6 @@ p {
     overflow: hidden; 
     text-overflow: ellipsis; /* Add ellipsis for overflowing text */
     width: 100%; /* Ensure paragraph takes full width of the container */
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

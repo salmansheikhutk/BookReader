@@ -16,6 +16,10 @@ h1 {
 }
 
 #book-list :hover{
-    background-color: #f1f1f1;
+    background-color: lightgreen;
     cursor: pointer;
+}
+
+p {
+    margin: 0;
 }
