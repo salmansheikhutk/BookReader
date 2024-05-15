@@ -6,12 +6,7 @@ h1 {
 
 
 
-#data-container span {
-    cursor: pointer; /* Changes the cursor to indicate interactivity */
-    transition: text-shadow 0.3s ease; /* Smooth transition for the shadow effect */
-    padding-left: 1px;
-    padding-right: 1px;
-}
+
 
 #data-container span:hover {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Shadow effect on hover */
@@ -55,4 +50,13 @@ p {
     width: 100%; /* Ensure paragraph takes full width of the container */
     margin-top: 5px;
     margin-bottom: 5px;
+    line-height: 2.5;
+}
+
+#data-container span {
+    cursor: pointer; /* Changes the cursor to indicate interactivity */
+    transition: text-shadow 0.3s ease; /* Smooth transition for the shadow effect */
+    padding-left: 1px;
+    padding-right: 1px;
+    line-height: 2.5;
 }
