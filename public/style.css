@@ -32,17 +32,6 @@ body {
 
 }
 
-.word {
-    position: relative;  /* Ensures the tooltip is positioned relative to this span */
-    display: inline-block; /* Helps maintain the structure when applying position */
-    cursor: pointer;
-}
-
-.word:hover .tooltip {
-    visibility: visible;
-}
-
-
 .arabic-word {
     position: relative;
     cursor: pointer;
